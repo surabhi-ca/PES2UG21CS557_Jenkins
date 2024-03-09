@@ -15,7 +15,7 @@ pipeline {
                 // This example compiles a C++ program named 'main.cpp'
               build 'PES2UG21CS557_1'
                 sh 'g++ main.cpp -o output'
-            }
+            //}
         }
         stage('Test') {
             steps {
