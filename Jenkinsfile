@@ -14,7 +14,7 @@ pipeline {
                     echo 'pipeline build failed'
                 }
             }
-        }       
+        //}       
         stage('Test') {
             steps {
                 // Print output of the .cpp file
